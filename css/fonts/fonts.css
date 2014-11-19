@@ -1,0 +1,148 @@
+@font-face {
+	font-family:'NeoSansW1G-Black';
+	src: url('NeoSansW1G-Black_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-Black_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-Black_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-Black_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-Black_latin+latin-ext+cyrillic.svg#NeoSansW1G-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+@font-face {
+	font-family:'NeoSansW1G-BlackItalic';
+	src: url('NeoSansW1G-BlackItalic_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-BlackItalic_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-BlackItalic_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-BlackItalic_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-BlackItalic_latin+latin-ext+cyrillic.svg#NeoSansW1G-BlackItalic') format('svg');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+@font-face {
+	font-family:'NeoSansW1G-Bold';
+	src: url('NeoSansW1G-Bold_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-Bold_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-Bold_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-Bold_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-Bold_latin+latin-ext+cyrillic.svg#NeoSansW1G-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+@font-face {
+	font-family:'NeoSansW1G-BoldItalic';
+	src: url('NeoSansW1G-BoldItalic_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-BoldItalic_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-BoldItalic_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-BoldItalic_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-BoldItalic_latin+latin-ext+cyrillic.svg#NeoSansW1G-BoldItalic') format('svg');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+@font-face {
+	font-family:'NeoSansW1G-Italic';
+	src: url('NeoSansW1G-Italic_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-Italic_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-Italic_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-Italic_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-Italic_latin+latin-ext+cyrillic.svg#NeoSansW1G-Italic') format('svg');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+@font-face {
+	font-family:'NeoSansW1G-Light';
+	src: url('NeoSansW1G-Light_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-Light_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-Light_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-Light_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-Light_latin+latin-ext+cyrillic.svg#NeoSansW1G-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+@font-face {
+	font-family:'NeoSansW1G-LightItalic';
+	src: url('NeoSansW1G-LightItalic_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-LightItalic_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-LightItalic_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-LightItalic_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-LightItalic_latin+latin-ext+cyrillic.svg#NeoSansW1G-LightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+
+@font-face {
+	font-family:'NeoSansW1G-Medium';
+	src: url('NeoSansW1G-Medium_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-Medium_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-Medium_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-Medium_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-Medium_latin+latin-ext+cyrillic.svg#NeoSansW1G-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+
+@font-face {
+	font-family:'NeoSansW1G-MediumItalic';
+	src: url('NeoSansW1G-MediumItalic_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-MediumItalic_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-MediumItalic_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-MediumItalic_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-MediumItalic_latin+latin-ext+cyrillic.svg#NeoSansW1G-MediumItalic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+@font-face {
+	font-family:'NeoSansW1G-Regular';
+	src: url('NeoSansW1G-Regular_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-Regular_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-Regular_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-Regular_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-Regular_latin+latin-ext+cyrillic.svg#NeoSansW1G-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+
+@font-face {
+	font-family:'NeoSansW1G-Ultra';
+	src: url('NeoSansW1G-Ultra_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-Ultra_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-Ultra_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-Ultra_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-Ultra_latin+latin-ext+cyrillic.svg#NeoSansW1G-Ultra') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
+
+@font-face {
+	font-family:'NeoSansW1G-UltraItalic';
+	src: url('NeoSansW1G-UltraItalic_latin+latin-ext+cyrillic.eot');
+	src: url('NeoSansW1G-UltraItalic_latin+latin-ext+cyrillic.eot?#iefix') format('embedded-opentype'),
+		url('NeoSansW1G-UltraItalic_latin+latin-ext+cyrillic.woff') format('woff'),
+		url('NeoSansW1G-UltraItalic_latin+latin-ext+cyrillic.ttf') format('truetype'),
+		url('NeoSansW1G-UltraItalic_latin+latin-ext+cyrillic.svg#NeoSansW1G-UltraItalic') format('svg');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2215;
+}
