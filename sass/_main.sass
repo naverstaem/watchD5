@@ -161,24 +161,32 @@ header
 
 
 .features
-  background: url(../img/features_bg.jpg)
-  +cover
-  padding: 70px 0
+  background: rgb(246,246,247)
+  padding: 80px 0
   .item
     text-align: center
     color: #333
     margin-top: 50px
     .item__img
       text-align: center
+      display: inline-block
+      width: 96px
+      height: 96px
+      +border-radius(50%)
+      border: solid 3px #9fbe4b
+      .vertical-aligned
+        height: 100%
+        display: inline-block
+        vertical-align: middle
       img
-        width: 167px
-        height: 118px
-    h3
-      font-size: 20px
-      font-family: 'uni_sanssemibold'
+        display: inline-block
+        vertical-align: middle
+
+
     p
-      font-size: 16.4px
-      font-family: 'uni_sans_regularregular'
+      font-size: 20px
+      font-family: 'NeoSansW1G-Regular'
+      margin-top: 10px
 
 .specs
   padding: 80px 0
