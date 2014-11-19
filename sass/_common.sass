@@ -12,23 +12,26 @@ label.error
 
 input, textarea
   +placeholder
-    font-size: 19px
+    font-size: 16px
     text-transform: none
     color: #999999
-    font-family: 'uni_sans_regularregular'
+    font-family: 'NeoSansW1G-Regular'
 
 .container
   max-width: 965px
 
 .btn
-  +border-radius(25px)
+  +border-radius(23px)
   +background-clip(padding-box)
-  background: #83b729
-  +box-shadow(0 4px 0 #537a10)
   text-transform: uppercase
   color: #ffffff
+  background: #e84d6e
+  +box-shadow(0 4px 0 #d23a5a)
+
+
+
   &:hover, &:focus
-    background: #8abd31
+    background: #ee5b7a
     color: #ffffff
   &:active
     color: #ffffff
@@ -64,7 +67,7 @@ input, textarea
       width: 63px
       height: 63px
       display: inline-block
-      font-family: 'uni_sanssemibold'
+      font-family: 'NeoSansW1G-Medium'
       font-size: 27.5px
       color: #313131
       padding-top: 10px
@@ -75,7 +78,7 @@ input, textarea
         position: absolute
         content: ":"
         font-size: 30px
-        color: #fff
+        color: #313131
         top: 4px
         font-family: 'uni_sanssemibold'
         right: -12px
@@ -85,8 +88,98 @@ input, textarea
 
 
   p
-    font-family: 'uni_sanssemibold'
+    font-family: 'NeoSansW1G-Regular'
     font-size: 12px
-    color: #ffffff
+    color: #282828
     &.counter__title
-      font-size: 17px
+      font-size: 14px
+
+
+.form
+  background: url(../img/form_bg.png)
+  +cover
+  //border-top: solid #abc563 8px
+  padding: 10px 60px 100px
+  text-align: center
+  &__header
+    color: #333
+    h3
+      font-size: 31.2px
+      font-family: 'NeoSansW1G-Medium'
+      text-transform: uppercase
+      margin-bottom: 0
+    h4
+      font-size: 21.7px
+      font-family: 'NeoSansW1G-Regular'
+      margin-top: 0
+  &__price
+    .price__old
+      color: #282828
+      font-family: 'NeoSansW1G-Medium'
+      font-size: 24.8px
+      span
+        position: relative
+        &:before
+          position: absolute
+          top: 15px
+          left: -2px
+          right: -5px
+          height: 0
+          border-bottom: solid 2px #90b810
+          content: ""
+    .price__new
+      font-size: 40.8px
+      color: #90b810
+      font-family: 'NeoSansW1G-Bold'
+      span
+        position: relative
+        &:before
+          position: absolute
+          content: ""
+          width: 10px
+          height: 0
+          border-bottom: solid 6px #90b810
+          left: -1px
+          top: 23px
+        &:after
+          position: absolute
+          content: ""
+          width: 20px
+          height: 0
+          border-bottom: solid 6px #90b810
+          left: -1px
+          top: 32px
+  &__shadow
+    background: url(../img/form_shadow.png)
+    +cover
+    height: 15px
+    width: 100%
+
+
+  &__form
+    padding: 0 25px
+    input
+      +placeholder
+        font-size: 16px
+      width: 100%
+      height: 42.5px
+      margin-bottom: 10px
+      padding-left: 15px
+      font-size: 16px
+      +background-clip(padding-box)
+      +border-radius(2px)
+      +background-clip(padding-box)
+      border: none
+      background: #fff
+      +box-shadow(inset 0 1px 2px rgba(0,0,0,.36))
+
+      &:focus
+        +box-shadow(0 0 9px rgba(204,62,82,.13))
+
+
+    button
+      width: 100%
+      text-transform: uppercase
+      font-size: 21px
+      margin-top: 10px
+      font-family: 'NeoSansW1G-Medium'
