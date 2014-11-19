@@ -289,17 +289,54 @@ header
           +border-radius(4px)
           +background-clip(padding-box)
           background-color: #abc563
-
+          &:before
+            position: absolute
+            content: ""
+            top: 50%
+            left: 50%
+            +transform(translate(-51%,-50%))
+          &.i1
+            &:before
+              background: url(../img/options_img1.png) center no-repeat
+              width: 13px
+              height: 24px
+          &.i2
+            &:before
+              background: url(../img/options_img2.png) center no-repeat
+              width: 21px
+              height: 20px
+          &.i3
+            &:before
+              background: url(../img/options_img3.png) center no-repeat
+              width: 15px
+              height: 24px
+          &.i4
+            &:before
+              background: url(../img/options_img4.png) center no-repeat
+              width: 23px
+              height: 13px
+          &.i5
+            &:before
+              background: url(../img/options_img5.png) center no-repeat
+              width: 15px
+              height: 20px
+          &.i6
+            &:before
+              background: url(../img/options_img6.png) center no-repeat
+              width: 19px
+              height: 18px
 .works
   text-align: center
   padding-top: 70px
-  padding-bottom: 40px
+  padding-bottom: 80px
+  background: url(../img/work_bg.png)
+  +cover
   &__item
     margin-top: 40px
     img
       margin-bottom: 30px
     p
-      font-family: 'uni_sans_regularregular'
+      font-family: 'NeoSansW1G-Regular'
       font-size: 17px
       color: #242424
       padding: 0 10px
@@ -311,20 +348,47 @@ header
     margin-top: 45px
     text-align: center
     font-family: 'uni_sans_regularregular'
+  &__img
+    display: inline-block
+    float: left
+    width: 40%
+    text-align: left
+  &__text
+    font-family: 'NeoSansW1G-Regular'
+    text-align: left
+    float: right
+    padding-left: 10px
+    width: 60%
     h3
       font-size: 21px
       color: #242424
+      margin: 0
     h4
       font-size: 16px
       color: #999
     p
+      display: inline-block
+      position: relative
       margin-top: 15px
       color: #414040
-      font-size: 18px
-      padding: 0 25px
+      font-size: 15px
+      padding: 15px
+      border: 1px solid #abc563
+      +border-radius(3px)
+      +background-clip(padding-box)
+      &:before
+        position: absolute
+        content: ""
+        top: -11px
+        left: 20px
+        background: url(../img/popup-ico.png) no-repeat
+        width: 31px
+        height: 13px
+        line-height: 1.5em
+
   &__buttons
     text-align: center
-    padding-top: 70px
+    padding-top: 50px
   &__more
     display: block
     height: 49px
@@ -332,10 +396,11 @@ header
     max-width: 176px
     margin: 0 auto
     font-size: 21px
+    font-family: 'NeoSansW1G-Regular'
   &__add-review
     display: inline-block
     margin: 20px auto 0
-    font-family: 'uni_sans_regularregular'
+    font-family: 'NeoSansW1G-Regular'
     font-size: 16px
     color: #414141
     border-bottom: dotted 1px

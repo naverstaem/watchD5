@@ -103,7 +103,7 @@
             <div class="form__shadow"></div>
             <div class="form__form">
 
-                <form id="form5" action="#" method="post">
+                <form id="form1" action="#" method="post">
                     <input type="text" name="name" class="name required"
                            placeholder="Ваше имя">
                     <input type="text" name="phone" class="phone required"
@@ -390,17 +390,17 @@
                   <div class="row">
                       <div class="col-md-9 col-sm-9">
                           <ul>
-                              <li><i></i>Часы-телефон</li>
-                              <li><i></i>Гарнитура</li>
-                              <li><i></i>USB-кабель</li>
+                              <li><i class="i1"></i>Часы-телефон</li>
+                              <li><i class="i2"></i>Гарнитура</li>
+                              <li><i class="i3"></i>USB-кабель</li>
 
                           </ul>
                       </div>
                       <div class="col-md-15 col-sm-15">
                           <ul>
-                              <li><i></i>Батарея 2 шт.</li>
-                              <li><i></i>Зарядное устройство</li>
-                              <li><i></i>Руководство пользователя (англ.)</li>
+                              <li><i class="i4"></i>Батарея 2 шт.</li>
+                              <li><i class="i5"></i>Зарядное устройство</li>
+                              <li><i class="i6"></i>Руководство пользователя (англ.)</li>
 
                           </ul>
                       </div>
@@ -471,26 +471,35 @@
         <div class="row">
         <div class="col-md-12">
             <div class="reviews__item">
-                <img src="img/review_img1.jpg" alt="image"/>
-                <h3>Вадим</h3>
-                <h4>г. Москва</h4>
-                <p>Товар отличного качества!  И доставка очень порадовала,
-                    буду советовать вас друзьям!</p>
+                <div class="reviews__img">
+                    <img src="img/review_img1.jpg" alt="image"/>
+                </div>
+                <div class="reviews__text">
+                    <h3>Дмитрий</h3>
+                    <h4>г. Москва</h4>
+                    <p>Товар отличного качества!  И доставка очень порадовала,
+                        буду советовать вас друзьям!</p>
+                </div>
             </div>
         </div>
             <div class="col-md-12">
                 <div class="reviews__item">
-                    <img src="img/review_img2.jpg" alt="image"/>
-                    <h3>Сергей</h3>
-                    <h4>г. Санкт-Петербург</h4>
-                    <p>Сделали заказ в этом магазине, позвонили через 5
-                        минут после заказа) На следующий день доставили!</p>
+                    <div class="reviews__img">
+                        <img src="img/review_img2.jpg" alt="image"/>
+                    </div>
+                    <div class="reviews__text">
+                        <h3>Ольга</h3>
+                        <h4>г. Санкт-Петербург</h4>
+                        <p>Сделали заказ в этом магазине,
+                            позвонили через 5 минут после заказа)
+                            На следующий день доставили!</p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="reviews__buttons">
-                <a class="btn btn--dark reviews__more" href="">Еще отзывы</a>
+                <a class="btn btn--green reviews__more" href="">Еще отзывы</a>
                 <a href="#" class="reviews__add-review"  data-toggle="modal" data-target="#add-review">Оставить отзыв</a>
             </div>
         </div>
@@ -499,6 +508,67 @@
 
 <section class="header--bottom">
     <div class="container">
+        <div class="row">
+            <div class="col-md-16">
+                <h1 class="title">
+                    <span>Телефон-часы</span><br>
+                    diweinuo D5
+                </h1>
+                <div class="header__text">
+                    <h3>Удобно в любой ситуации!</h3>
+                    <p>Отдыхаете ли вы, работаете или путешествуете - все необходимое.</p>
+                    <p>Связь, музыка, важная информация - все с вами.</p>
+                </div>
+                <div class="header__watch"><img src="img/header-watch.png" alt="watch"/></div>
+            </div>
+            <div class="col-md-8">
+                <div class="form header__form">
+                    <div class="form__header">
+                        <h3>закажи сейчас!</h3>
+                        <h4>по супер низкой цене</h4>
+                    </div>
+                    <div class="form__price">
+                        <div class="price__old"><span>3600</span></div>
+                        <div class="price__new">2990 <span>Р</span></div>
+                    </div>
+                    <div class="counter">
+                        <div class="counter">
+                            <p class="counter__title">до окончания акции осталось</p>
+                            <div class="bl">
+                                <span class="h">00</span>
+
+                                <p>часа</p>
+                            </div>
+                            <div class="bl">
+                                <span class="m">00</span>
+
+                                <p>минут</p>
+                            </div>
+                            <div class="bl">
+                                <span class="s">00</span>
+
+                                <p>секунд</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__shadow"></div>
+                    <div class="form__form">
+
+                        <form id="form5" action="#" method="post">
+                            <input type="text" name="name" class="name required"
+                                   placeholder="Ваше имя">
+                            <input type="text" name="phone" class="phone required"
+                                   placeholder="Ваш  телефон">
+                            <button class="btn">заказать</button>
+
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
 
 
 
