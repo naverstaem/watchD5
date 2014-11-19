@@ -419,26 +419,21 @@ header
   padding-bottom: 55px
 
   .item
-    margin: 30px 0 0
-    padding: 30px
+    padding: 30px 40px 100px
+    margin-top: 30px
+    margin-left: -15px
+    margin-right: -15px
     +border-radius(4px)
     +background-clip(padding-box)
     //border: 3px rgb(219,219,219) solid
     text-align: center
-    background: url(../img/form_bg1.jpg) no-repeat
+    background: url(../img/other-form_bg.png) no-repeat
     +cover
-    &.i2
-      background: url(../img/form_bg2.jpg) no-repeat
-      +cover
-    &.i3
-      background: url(../img/form_bg3.jpg) no-repeat
-      +cover
-
 
 
     h3
       font-size: 23px
-      font-family: 'uni_sans_regularregular'
+      font-family: 'NeoSansW1G-Regular'
       color: #181818
       margin: 0 0 10px
 
@@ -450,12 +445,10 @@ header
 
   .img
     display: inline-block
-    height: 223px
-    width: 223px
-    +border-radius(50%)
     background: #ffffff
     text-align: center
     margin-bottom: 15px
+    height: 179px
     span
       vertical-align: middle
       display: inline-block
@@ -463,9 +456,8 @@ header
     img
       vertical-align: middle
       display: inline-block
-      border-radius: 50%
   .price-b
-    font-family: 'uni_sansbold'
+    font-family: 'NeoSansW1G-Bold'
     color: #181818
     font-size: 26px
     margin-bottom: 15px
@@ -481,33 +473,30 @@ header
     font-size: 16px
     +background-clip(padding-box)
     border: 1px solid rgba(204,204,204,.59)
-    @include border-radius(3px)
-    @include background-clip(padding-box)
-    background-color: #77b3ff
-    @include background-image(linear-gradient(to bottom, #fff 0%, #fff 1%, #fff 100%))
-
+    +border-radius(3px)
+    +background-clip(padding-box)
+    +background-image(linear-gradient(to bottom, #fff 0%, #fff 1%, #fff 100%))
     &:focus
       @include box-shadow(0 0 9px rgba(204,62,82,.13)) // outer glow
 
 
   button
     width: 100%
-    font-family: 'uni_sanssemibold'
+    font-family: 'NeoSansW1G-Regular'
     text-transform: uppercase
     font-size: 21px
-    margin-top: 10px
+    margin-top: 15px
 
 
 
 footer
-  border-top-width: 8px
-  border-image-source: url(../img/stripe.png)
-  border-image-repeat: repeat
-  border-image-slice: 8 1 0 1
+
   padding-top: 35px
   padding-bottom: 40px
-  font-family: 'uni_sans_regularregular'
+  font-family: 'NeoSansW1G-Regular'
   color: #414141
+  background: url(../img/footer_bg.png)
+  +cover
   span
     display: inline-block
     position: relative
@@ -518,6 +507,7 @@ footer
     vertical-align: middle
     margin-bottom: 0
     line-height: 1.7em
+    font-family: 'NeoSansW1G-Medium'
   .footer__right
     text-align: right
     font-size: 15px
@@ -720,7 +710,15 @@ footer
 
 
 //media queries
+@media (max-width: $screen-md-min)
+  header
+    .header__form
+      margin: 0
 
-@media(max-width: 767px)
+@media (max-width: $screen-sm-min)
   h1, h2
     font-size: 24px !important
+@media (max-width: $screen-xs-min)
+  .form
+    padding-left: 30px !important
+    padding-right: 30px !important
