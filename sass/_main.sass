@@ -529,18 +529,15 @@ footer
       +opacity(.71)
   .modal-dialog
     +border-radius(3px)
-    max-width: 574px
+    max-width: 567px
     +background-clip(padding-box)
-    background-color: #fff
+    background: rgba(#fff,.88)
     +box-shadow(0 8px 46px rgba(0,0,0,.44))
 
   .modal-content
-    border-top-width: 8px
-    border-image-source: url(../img/stripe.png)
-    border-image-repeat: repeat
-    border-image-slice: 8 1 0 1
     position: relative
     +border-radius(3px)
+    background: transparent
     .close
       position: absolute
       top: 7px
@@ -548,11 +545,13 @@ footer
 
   .modal-header
     border-bottom: none
-    padding-top: 40px
+    padding-top: 30px
     h2
       margin-top: 15px
+      font-family: 'NeoSansW1G-Regular'
+      font-size: 45px
     h3
-      font-family: 'uni_sans_regularregular'
+      font-family: 'NeoSansW1G-Regular'
       color: black
       font-size: 17px
       padding: 0 15px
@@ -588,7 +587,7 @@ footer
         width: 100%
         font-size: 21px
         max-width: 230px
-        font-family: 'uni_sanssemibold'
+        font-family: 'NeoSansW1G-Medium'
         height: 46.4px
         text-transform: uppercase
         display: block
@@ -597,7 +596,7 @@ footer
 .add-review
   @extend .feedback
   .modal-dialog
-    max-width: 574px
+    max-width: 567px
   .modal-content
   .modal-header
     padding-top: 30px
@@ -610,7 +609,7 @@ footer
         width: 100%
       input[type = text]
         display: inline-block
-        margin-right: 9px
+        margin-right: 5px
         &:last-child
           margin-right: 0
 
@@ -620,7 +619,7 @@ footer
         height: 106px
         resize: none
         width: 100%
-        max-width: 477px
+        max-width: 470px
         padding: 15px 10px
         margin-top: 5px
         +border-radius(2px)
@@ -635,7 +634,7 @@ footer
           display: inline-block
           text-align: left
           font-size: 16px
-          font-family: 'uni_sans_regularregular'
+          font-family: 'NeoSansW1G-Regular'
           >input
             display: none
             &:checked
@@ -648,7 +647,7 @@ footer
                     height: 10px
                     +border-radius(1px)
                     +background-clip(padding-box)
-                    background-color: #4f376d
+                    background-color: #e74d6d
                     top: 50%
                     left: 50%
                     +transform(translate(-50%,-50%))
@@ -691,23 +690,37 @@ footer
 
 .thanks
   @extend .feedback
+  .modal-backdrop
+    background: #000
+    &.in
+      +opacity(.71)
   .modal-dialog
-    max-width: 447px
-    +border-radius(0 0 265px 265px / 0 0 25px 25px)
+    max-width: 441px
   .modal-content
-    border-top-width: 8px
-    border-image-source: url(../img/stripe.png)
-    border-image-repeat: repeat
-    border-image-slice: 8 1 0 1
     position: relative
-    +border-radius(0 0 265px 265px / 0 0 25px 25px)
   .modal-header
+    .img
+      width: 96px
+      height: 96px
+      +border-radius(50%)
+      border: solid 3px #9ad300
+      margin: 0 auto
+      .vertical-aligned
+        height: 100%
+        display: inline-block
+        vertical-align: middle
+      img
+        display: inline-block
+        vertical-align: middle
+        position: relative
+        top: -3px
     h2
       font-size: 45px
     h3
       font-size: 18px
       padding: 0
-
+  .modal-body
+    padding: 20px 20px 50px
 
 
 //media queries
