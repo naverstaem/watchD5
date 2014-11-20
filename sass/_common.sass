@@ -1,0 +1,189 @@
+//@import "../css/bootstrap.min.css"
+@import "../css/fonts/fonts.css"
+
+
+*
+  outline: none !important
+
+input.error, textarea.error
+  box-shadow: inset 0 0 10px red !important
+label.error
+  display: none !important
+
+input, textarea
+  +placeholder
+    font-size: 16px
+    text-transform: none
+    color: #999999
+    font-family: 'NeoSansW1G-Regular'
+
+.container
+  max-width: 965px
+
+.btn
+  +border-radius(23px)
+  +background-clip(padding-box)
+  text-transform: uppercase
+  color: #ffffff
+  background: #e84d6e
+  +box-shadow(0 4px 0 #d23a5a)
+
+
+
+  &:hover, &:focus
+    background: #ee5b7a
+    color: #ffffff
+  &:active
+    color: #ffffff
+    +box-shadow(0 0 0 0)
+.btn--green
+  text-transform: none
+  background: #abc563
+  +box-shadow(0 4px 0 #8aa446)
+
+  &:hover, &:focus
+    background: #b1cb6d
+  &:active
+    +box-shadow(0 0 0 0)
+
+.title
+  color: #333333
+  text-align: center
+  font-size: 48px
+  text-transform: uppercase
+  font-family: 'NeoSansW1G-Light'
+  span
+    font-family: 'NeoSansW1G-Regular'
+.counter
+  display: inline-block
+  vertical-align: middle
+  margin-top: 10px
+  text-align: center
+
+  .bl
+    display: inline-block
+    text-align: center
+    margin: 0 6px
+    span
+      width: 63px
+      height: 63px
+      display: inline-block
+      font-family: 'NeoSansW1G-Medium'
+      font-size: 27.5px
+      color: #313131
+      padding-top: 10px
+      background: url(../img/counter_bg.png) no-repeat
+      position: relative
+
+      &:after
+        position: absolute
+        content: ":"
+        font-size: 30px
+        color: #313131
+        top: 4px
+        font-family: 'uni_sanssemibold'
+        right: -12px
+      &.s
+        &:after
+          content: ""
+
+
+  p
+    font-family: 'NeoSansW1G-Regular'
+    font-size: 12px
+    color: #282828
+    &.counter__title
+      font-size: 14px
+
+
+.form
+  background: url(../img/form_bg.png)
+  +cover
+  //border-top: solid #abc563 8px
+  padding: 40px 60px 110px
+  text-align: center
+  &__header
+    color: #333
+    h3
+      font-size: 31.2px
+      font-family: 'NeoSansW1G-Medium'
+      text-transform: uppercase
+      margin-bottom: 0
+    h4
+      font-size: 21.7px
+      font-family: 'NeoSansW1G-Regular'
+      margin-top: 0
+      margin-bottom: 15px
+  &__price
+    .price__old
+      color: #282828
+      font-family: 'NeoSansW1G-Medium'
+      font-size: 24.8px
+      span
+        position: relative
+        &:before
+          position: absolute
+          top: 15px
+          left: -2px
+          right: -5px
+          height: 0
+          border-bottom: solid 2px #90b810
+          content: ""
+    .price__new
+      font-size: 40.8px
+      color: #90b810
+      font-family: 'NeoSansW1G-Bold'
+      line-height: 1em
+      span
+        position: relative
+        &:before
+          position: absolute
+          content: ""
+          width: 10px
+          height: 0
+          border-bottom: solid 6px #90b810
+          left: -1px
+          top: 23px
+        &:after
+          position: absolute
+          content: ""
+          width: 20px
+          height: 0
+          border-bottom: solid 6px #90b810
+          left: -1px
+          top: 32px
+  &__shadow
+    background: url(../img/form_shadow.png)
+    +cover
+    height: 15px
+    width: 100%
+    margin: 10px 0
+
+
+  &__form
+    padding: 0 25px
+    input
+      +placeholder
+        font-size: 16px
+      width: 100%
+      height: 42.5px
+      margin-bottom: 10px
+      padding-left: 15px
+      font-size: 16px
+      +background-clip(padding-box)
+      +border-radius(2px)
+      +background-clip(padding-box)
+      border: none
+      background: #fff
+      +box-shadow(inset 0 1px 2px rgba(0,0,0,.36))
+
+      &:focus
+        +box-shadow(0 0 9px rgba(204,62,82,.13))
+
+
+    button
+      width: 100%
+      text-transform: uppercase
+      font-size: 21px
+      margin-top: 15px
+      font-family: 'NeoSansW1G-Medium'
