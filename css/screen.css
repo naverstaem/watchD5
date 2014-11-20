@@ -1995,7 +1995,7 @@ header .header__form, .header--bottom .header__form { position: relative; z-inde
 .options__text ul { padding-top: 35px; list-style: none; font-family: "NeoSansW1G-Regular"; font-size: 16px; color: #333; padding-left: 50px; letter-spacing: -0.5px; }
 .options__text ul li { position: relative; margin-top: 25px; }
 .options__text ul li i { position: absolute; top: -5px; left: -50px; content: ""; width: 33px; height: 33px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; -moz-background-clip: padding; -o-background-clip: padding-box; -webkit-background-clip: padding; background-clip: padding-box; background-color: #abc563; }
-.options__text ul li i:before { position: absolute; content: ""; top: 50%; left: 50%; -moz-transform: translate(-51%, -50%); -ms-transform: translate(-51%, -50%); -webkit-transform: translate(-51%, -50%); transform: translate(-51%, -50%); }
+.options__text ul li i:before { position: absolute; content: ""; top: 50%; left: 50%; -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 .options__text ul li i.i1:before { background: url(../img/options_img1.png) center no-repeat; width: 13px; height: 24px; }
 .options__text ul li i.i2:before { background: url(../img/options_img2.png) center no-repeat; width: 21px; height: 20px; }
 .options__text ul li i.i3:before { background: url(../img/options_img3.png) center no-repeat; width: 15px; height: 24px; }
