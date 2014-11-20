@@ -116,6 +116,7 @@ header
 .intro
   padding-top: 30px
   &__img
+    text-align: center
     img
       width: 100%
       max-width: 246px
@@ -714,10 +715,26 @@ footer
   header
     .header__form
       margin: 0
-
+  .specs
+    .specs__img
+      img
+        margin-top: 40px
+  .form
+    padding-left: 80px
+    padding-right: 80px
+  .other
+    .item
+      padding-left: 80px
+      padding-right: 80px
 @media (max-width: $screen-sm-min)
   h1, h2
     font-size: 24px !important
+  .reviews
+    &__img
+      float: none
+    &__text
+      float: none
+
 @media (max-width: $screen-xs-min)
   .form
     padding-left: 30px !important
